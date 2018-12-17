@@ -6,8 +6,8 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <link rel="stylesheet" type="text/css" href="main.css">
-    <script src="raphael.min.js" type="text/javascript" charset="utf-8"></script>
-    <script src="map.js" type="text/javascript" charset="utf-8"></script>
+    <script src="raphael.min.js"></script>
+    <script src="map.js"></script>
   </head>
   <body>
     <header>
@@ -18,14 +18,16 @@
         <div style="clear: both;"></div>
       </section>
     </header>
-    <section>
+    <section id="text">
       <h2>Was ist Freifunk?</h2>
-      <p>Freifunk ist eine gemeinschaftliche Bewegung, die sich für einen freien Netzzugang einsetzt. Gemeinschaftsnetze werden von immer mehr Menschen in Eigenregie aufgebaut. Freifunker*innen stellen dazu ihre WLAN-Router der Allgemeinheit zur Verfügung, viele Router bilden ein großes Freifunk-Netz.</p>
+      <p>
+        Freifunk ist eine gemeinschaftliche Bewegung, die sich für einen freien Netzzugang einsetzt. Gemeinschaftsnetze werden von immer mehr Menschen in Eigenregie aufgebaut. Freifunker*innen stellen dazu ihre WLAN-Router der Allgemeinheit zur Verfügung, viele Router bilden ein großes Freifunk-Netz.
+      </p>
+      <p>
+        Freifunker*innen organisieren sich dezentral in lokalen Communities. Auch in Mainz, Wiesbaden und Umgebung gibt es bereits Freifunk-Initiativen. Um zu der Seite einer lokalen Community zu gelangen klicke auf das entsprechende Gebiet. Allgemeine Infos zu Freifunk findest Du unter <a href="https://freifunk.net">freifunk.net</a>.
+      </p>
     </section>
-    <section>
-      <p>Freifunker*innen organisieren sich dezentral in lokalen Communities. Auch in <em>Mainz, Wiesbaden und Umgebung (MWU)</em> gibt es bereits Freifunk-Initiativen. Um zu der Seite einer lokalen Community zu gelangen klicke auf das entsprechende Gebiet. Allgemeine Infos zu Freifunk findest Du unter <a href="https://freifunk.net">freifunk.net</a>.</p>
-    </section>
-    <section style="text-align: center;">
+    <section id="map">
       <div id="canvas">
         <h2 id="descr">&nbsp;</h2>
         <div id="paper"></div>
