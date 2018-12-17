@@ -35,6 +35,10 @@ div#paper svg {
   max-width: 500px;
 }
 
+div#paper svg path {
+  cursor: pointer;
+}
+
 a.impressum {
   padding: 1em;
   text-align: right;
