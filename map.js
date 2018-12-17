@@ -46,7 +46,7 @@ window.onload = function () {
                 current = district;
             };
             st[0].onclick = function () {
-                window.open(sites[current]);
+                window.location.href = sites[current];
             };
             st[0].onmouseout = function () {
                 st.animate(attr, speed);
