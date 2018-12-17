@@ -4,28 +4,28 @@ window.onload = function () {
 
     var speed = 500;
     var attr = {
-      "fill": "#333",
-      "stroke": "#666",
-      "stroke-width": 1,
-      "stroke-linejoin": "round"
+        "fill": "#333",
+        "stroke": "#666",
+        "stroke-width": 1,
+        "stroke-linejoin": "round"
     };
     var attr_animate = {
-      fill: "#dc0067",
-      stroke: "#009ee0"
+        fill: "#dc0067",
+        stroke: "#009ee0"
     };
     var descr = {
-      "bin": "Bingen",
-      "mz": "Mainz",
-      "rtk": "Rheingau-Tanus",
-      "mtk": "Main-Taunus",
-      "wi": "Wiesbaden",
+        "bin": "Bingen",
+        "mz": "Mainz",
+        "rtk": "Rheingau-Tanus",
+        "mtk": "Main-Taunus",
+        "wi": "Wiesbaden",
     };
     var sites = {
-      "bin": "https://www.freifunk-bingen.de/",
-      "mz": "https://freifunk-mainz.de/",
-      "rtk": "https://www.freifunk-rtk.de/",
-      "mtk": "https://www.wiesbaden.freifunk.net/",
-      "wi": "https://www.wiesbaden.freifunk.net/",
+        "bin": "https://www.freifunk-bingen.de/",
+        "mz": "https://freifunk-mainz.de/",
+        "rtk": "https://www.freifunk-rtk.de/",
+        "mtk": "https://www.wiesbaden.freifunk.net/",
+        "wi": "https://www.wiesbaden.freifunk.net/",
     };
 
     var boundaries = {};
