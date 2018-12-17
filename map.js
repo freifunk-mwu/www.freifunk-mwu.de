@@ -16,7 +16,7 @@ window.onload = function () {
     var descr = {
         "bin": "Bingen",
         "mz": "Mainz",
-        "rtk": "Rheingau-Tanus",
+        "rtk": "Rheingau-Taunus",
         "wi": "Wiesbaden",
     };
     var sites = {
