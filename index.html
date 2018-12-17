@@ -6,6 +6,8 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <link rel="stylesheet" type="text/css" href="main.css">
+    <script src="raphael.min.js" type="text/javascript" charset="utf-8"></script>
+    <script src="map.js" type="text/javascript" charset="utf-8"></script>
   </head>
   <body>
     <header>
@@ -24,21 +26,11 @@
     <section>
       <p>Freifunker*innen organisieren sich dezentral in lokalen Communities. Auch in <em>Mainz, Wiesbaden und Umgebung (MWU)</em> gibt es bereits Freifunk-Initiativen. Weitere Infos zu Freifunk findest Du unter <a href="https://freifunk.net">freifunk.net</a>.</p>
     </section>
-    <section>
-      <ul>
-        <li>Linksrheinisch
-          <ul>
-            <li><a href="https://www.freifunk-bingen.de">Bingen</a></li>
-            <li><a href="https://freifunk-mainz.de">Mainz</a></li>
-          </ul>
-        </li>
-        <li>Rechtsrheinisch
-          <ul>
-            <li><a href="https://www.wiesbaden.freifunk.net">Wiesbaden</a></li>
-            <li><a href="https://www.freifunk-rtk.de">Rheingau-Taunus</a></li>
-          </ul>
-        </li>
-      </ul>
+    <section style="text-align: center;">
+      <div id="canvas">
+        <h2 id="descr">&nbsp;</h2>
+        <div id="paper"></div>
+      </div>
     </section>
     <a class="impressum" href="https://www.freifunk-mainz.de/#impressum">Impressum</a>
   </body>

@@ -31,33 +31,8 @@ header img {
   padding: 0 3em 0 2em;
 }
 
-body ul {
-  margin: 0;
-  padding: 0;
-}
-
-body ul li {
-  background: #ccc;
-  padding: .5em;
-  margin: .05em;
-  list-style-type: none;
-  font-weight: bold;
-}
-
-section > ul > li {
-  margin: .5em 0;
-}
-
-section > ul > li > ul > li {
-  display: inline-block;
-  background: #009ee0;
-  padding: 1em;
-  margin: .5em .125em;
-  font-weight: normal;
-}
-
-section > ul > li a {
-  color: #10222b;
+div#paper svg {
+  max-width: 500px;
 }
 
 a.impressum {
