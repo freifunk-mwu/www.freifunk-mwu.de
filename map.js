@@ -1,6 +1,6 @@
 window.onload = function () {
     var R = Raphael("paper", "100%", "100%");
-    R.setViewBox(0, 0, 377, 512, true)
+    R.setViewBox(0, 125, 377, 385, true) // (0, 0, 377, 512, true)
 
     var speed = 500;
     var attr = {
