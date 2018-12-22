@@ -42,6 +42,10 @@ div#paper svg path {
   cursor: pointer;
 }
 
+h2#descr {
+  margin-bottom: .05em;
+}
+
 a.impressum {
   padding: 1em;
   text-align: right;
